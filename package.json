@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:ArunGovil/locallibrary.git",
-  "author": "ArunGovil <a.arungovil@gmail.com>",
+  "author": "ArunGovil",
   "scripts": {
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www"
