@@ -9,14 +9,7 @@ app.get("/", function (req, res) {
   res.sendFile(__dirname + "/views/index.html");
 });
 
-app.get("/all", function (req, res) {
-  res.json(data);
-});
-
-app.get("/book/:id", function (req, res) {
-  const item = data.find((item) => (item.id = req.params.id));
-  res.json({ item });
-});
+app.use("/library", require("./routes/books"));
 
 app.listen(port, () => {});
 
