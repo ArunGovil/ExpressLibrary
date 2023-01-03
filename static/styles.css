@@ -1,18 +1,19 @@
 body {
-  background-color: crimson;
+  background-color: #131720;
   color: aliceblue;
-  height: 100vh;
-  width: 100vw;
   display: flex;
+  text-align: center;
+  min-height: 90vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: monospace;
 }
 a {
   background-color: aliceblue;
-  font-family: monospace;
-  padding: 0.5rem;
-  text-decoration: none;
+  color: #131720;
+  padding: 1rem;
   border-radius: 0.5rem;
-  margin: 1rem;
+  text-decoration: none;
+  margin-top: 1rem;
 }
